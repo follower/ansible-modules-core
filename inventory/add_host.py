@@ -19,6 +19,8 @@ options:
     description:
     - The groups to add the hostname to, comma separated.
     required: false
+  **variable**:
+    description: Any variable required to define the new host more fully. e.g. ansible_ssh_private_key_file
 author: Seth Vidal
 '''
 
